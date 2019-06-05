@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DdR-JL-2eC">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -117,10 +117,10 @@
             </objects>
             <point key="canvasLocation" x="1240.8" y="135.22167487684729"/>
         </scene>
-        <!--View Controller-->
+        <!--RegisterVC-->
         <scene sceneID="V9r-sp-myU">
             <objects>
-                <viewController id="0kp-Ef-g0r" sceneMemberID="viewController">
+                <viewController id="0kp-Ef-g0r" customClass="RegisterVC" customModule="Artable" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eaE-JL-cAu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -182,6 +182,9 @@
                                         <state key="normal" title="Button">
                                             <color key="titleColor" red="0.95294117649999999" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="registerClicked:" destination="0kp-Ef-g0r" eventType="touchUpInside" id="A72-yi-gfb"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -189,11 +192,11 @@
                                 <rect key="frame" x="169" y="410.33333333333331" width="37" height="37"/>
                                 <color key="color" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </activityIndicatorView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="red_check" translatesAutoresizingMaskIntoConstraints="NO" id="yD6-Gs-zFZ">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="red_check" translatesAutoresizingMaskIntoConstraints="NO" id="yD6-Gs-zFZ">
                                 <rect key="frame" x="319" y="251" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="red_check" translatesAutoresizingMaskIntoConstraints="NO" id="Z6G-tc-1tY">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="red_check" translatesAutoresizingMaskIntoConstraints="NO" id="Z6G-tc-1tY">
                                 <rect key="frame" x="320" y="304" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -212,6 +215,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zyc-4O-nqv"/>
                     </view>
+                    <connections>
+                        <outlet property="confirmPassTxt" destination="KRk-PA-6FX" id="FtG-6k-6dh"/>
+                        <outlet property="emailTxt" destination="8TX-nF-T95" id="Hrs-dV-Bjc"/>
+                        <outlet property="passwordTxt" destination="vZ6-ly-sqt" id="p8a-Rp-zpf"/>
+                        <outlet property="usernameTxt" destination="vhy-Nb-6CK" id="vgh-OD-Di5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U3Y-Sb-2Sp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -220,7 +229,7 @@
         <!--Navigation Controller-->
         <scene sceneID="TQ1-rf-QPt">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DdR-JL-2eC" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="LoginVC" automaticallyAdjustsScrollViewInsets="NO" id="DdR-JL-2eC" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dqh-lw-xgm">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
