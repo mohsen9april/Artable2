@@ -22,6 +22,7 @@ class RegisterVC: UIViewController {
     override func viewDidLoad() {
         activityIndicator.isHidden = true
         super.viewDidLoad()
+        activityIndicator.isHidden = true
         
         passwordTxt.addTarget(self, action: #selector(textFieldDidChange(_:)), for: UIControl.Event.editingChanged)
         confirmPassTxt.addTarget(self, action: #selector(textFieldDidChange(_:)), for: UIControl.Event.editingChanged)
@@ -29,9 +30,17 @@ class RegisterVC: UIViewController {
     
     @objc func textFieldDidChange(_ textField: UITextField){
         
+        guard let passText = passwordTxt.text else { return }
+        
         if textField == confirmPassTxt {
             passCheckImage.isHidden = false
             confirmPassCheckImg.isHidden = false
+        } else {
+            if passText.isEmpty {
+                passCheckImage.isHidden = true
+                confirmPassCheckImg.isHidden = true
+                confirmPassTxt.text = ""
+            }
         }
         
         if passwordTxt.text == confirmPassTxt.text {
@@ -48,7 +57,7 @@ class RegisterVC: UIViewController {
           guard let email = emailTxt.text , !email.isEmpty,
                 let username = usernameTxt.text, !username.isEmpty ,
                 let password = passwordTxt.text , !password.isEmpty else { return }
-        
+        activityIndicator.isHidden = false
         activityIndicator.startAnimating()
         
         Auth.auth().createUser(withEmail: email, password: password) { (authResult, error) in
