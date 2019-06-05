@@ -125,9 +125,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_right1" translatesAutoresizingMaskIntoConstraints="NO" id="FCv-ac-Jmo">
-                                <rect key="frame" x="0.0" y="88" width="375" height="724"/>
-                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="rfM-x3-bh4">
                                 <rect key="frame" x="20" y="108" width="335" height="282.33333333333331"/>
                                 <subviews>
@@ -200,6 +197,9 @@
                                 <rect key="frame" x="320" y="304" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_right1" translatesAutoresizingMaskIntoConstraints="NO" id="FCv-ac-Jmo">
+                                <rect key="frame" x="0.0" y="88" width="375" height="724"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -216,8 +216,11 @@
                         <viewLayoutGuide key="safeArea" id="zyc-4O-nqv"/>
                     </view>
                     <connections>
+                        <outlet property="activityIndicator" destination="Gsl-v4-TXg" id="xXo-SM-MsR"/>
+                        <outlet property="confirmPassCheckImg" destination="Z6G-tc-1tY" id="vL0-s2-TKu"/>
                         <outlet property="confirmPassTxt" destination="KRk-PA-6FX" id="FtG-6k-6dh"/>
                         <outlet property="emailTxt" destination="8TX-nF-T95" id="Hrs-dV-Bjc"/>
+                        <outlet property="passCheckImage" destination="yD6-Gs-zFZ" id="vIp-Qx-qM5"/>
                         <outlet property="passwordTxt" destination="vZ6-ly-sqt" id="p8a-Rp-zpf"/>
                         <outlet property="usernameTxt" destination="vhy-Nb-6CK" id="vgh-OD-Di5"/>
                     </connections>

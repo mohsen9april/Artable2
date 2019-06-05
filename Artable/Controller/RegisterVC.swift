@@ -15,10 +15,32 @@ class RegisterVC: UIViewController {
     @IBOutlet weak var emailTxt: UITextField!
     @IBOutlet weak var passwordTxt: UITextField!
     @IBOutlet weak var confirmPassTxt: UITextField!
+    @IBOutlet weak var passCheckImage: UIImageView!
+    @IBOutlet weak var confirmPassCheckImg: UIImageView!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     override func viewDidLoad() {
+        activityIndicator.isHidden = true
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        passwordTxt.addTarget(self, action: #selector(textFieldDidChange(_:)), for: UIControl.Event.editingChanged)
+        confirmPassTxt.addTarget(self, action: #selector(textFieldDidChange(_:)), for: UIControl.Event.editingChanged)
+    }
+    
+    @objc func textFieldDidChange(_ textField: UITextField){
+        
+        if textField == confirmPassTxt {
+            passCheckImage.isHidden = false
+            confirmPassCheckImg.isHidden = false
+        }
+        
+        if passwordTxt.text == confirmPassTxt.text {
+            passCheckImage.image = UIImage(named: "green_check")
+            confirmPassCheckImg.image = UIImage(named: "green_check")
+        } else {
+            passCheckImage.image = UIImage(named: "red_check")
+            confirmPassCheckImg.image = UIImage(named: "red_check")
+        }
     }
     
     @IBAction func registerClicked(_ sender: Any) {
@@ -27,12 +49,17 @@ class RegisterVC: UIViewController {
                 let username = usernameTxt.text, !username.isEmpty ,
                 let password = passwordTxt.text , !password.isEmpty else { return }
         
+        activityIndicator.startAnimating()
+        
         Auth.auth().createUser(withEmail: email, password: password) { (authResult, error) in
             
             if let Error = error {
                 debugPrint(Error)
                 return
             }
+            
+            self.activityIndicator.stopAnimating()
+            self.activityIndicator.isHidden = true
             print("Successfully Registered new User !")
         }
     }
