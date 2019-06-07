@@ -30,9 +30,11 @@ class LoginVC: UIViewController {
             let password = passwordTxt.text , !password.isEmpty else { return }
             activityIndicator.isHidden = false
             activityIndicator.startAnimating()
-        Auth.auth().signIn(withEmail: email, password: password) { user, error in
+        
+            Auth.auth().signIn(withEmail: email, password: password) { user, error in
             if let error  = error {
                 self.activityIndicator.stopAnimating()
+                self.handleFireAuthError(error: error)
                 debugPrint(error)
                 return
             }

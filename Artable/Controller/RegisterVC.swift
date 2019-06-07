@@ -59,13 +59,16 @@ class RegisterVC: UIViewController {
                 activityIndicator.isHidden = false
                 activityIndicator.startAnimating()
         
-        Auth.auth().createUser(withEmail: email, password: password) { (authResult, error) in
-            
+        
+        guard let authentication = Auth.auth().currentUser else { return }
+        
+        let credential = EmailAuthProvider.credential(withEmail: email, password: password)
+        authentication.link(with: credential) { (result, error) in
             if let Error = error {
                 debugPrint(Error)
                 return
             }
-            
+       
             self.activityIndicator.stopAnimating()
             self.activityIndicator.isHidden = true
             print("Successfully Registered new User !")
