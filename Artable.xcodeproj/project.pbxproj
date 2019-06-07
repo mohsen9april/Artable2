@@ -10,7 +10,7 @@
 		69CBD29385BFA45AB01C2209 /* Pods_ArtableAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C792FB129DB4F5C0B5ECB07 /* Pods_ArtableAdmin.framework */; };
 		8115F655A18FB72CC592BF81 /* Pods_Artable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9115CCB8A665A71BE55CE734 /* Pods_Artable.framework */; };
 		ED09EE1922A5521C00E5D3B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED09EE1822A5521C00E5D3B3 /* AppDelegate.swift */; };
-		ED09EE1B22A5521C00E5D3B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED09EE1A22A5521C00E5D3B3 /* ViewController.swift */; };
+		ED09EE1B22A5521C00E5D3B3 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED09EE1A22A5521C00E5D3B3 /* HomeVC.swift */; };
 		ED09EE1E22A5521C00E5D3B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED09EE1C22A5521C00E5D3B3 /* Main.storyboard */; };
 		ED09EE2022A5521E00E5D3B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED09EE1F22A5521E00E5D3B3 /* Assets.xcassets */; };
 		ED09EE2322A5521E00E5D3B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED09EE2122A5521E00E5D3B3 /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 		ECB2B935AABB0BE2BD8B6C2B /* Pods-Artable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Artable.release.xcconfig"; path = "Target Support Files/Pods-Artable/Pods-Artable.release.xcconfig"; sourceTree = "<group>"; };
 		ED09EE1522A5521C00E5D3B3 /* Artable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED09EE1822A5521C00E5D3B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED09EE1A22A5521C00E5D3B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED09EE1A22A5521C00E5D3B3 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		ED09EE1D22A5521C00E5D3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED09EE1F22A5521E00E5D3B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED09EE2222A5521E00E5D3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -153,7 +153,7 @@
 			children = (
 				ED815F3522A7ED2E00317280 /* LoginVC.swift */,
 				ED815F3722A7ED6200317280 /* RegisterVC.swift */,
-				ED09EE1A22A5521C00E5D3B3 /* ViewController.swift */,
+				ED09EE1A22A5521C00E5D3B3 /* HomeVC.swift */,
 				ED09EE1822A5521C00E5D3B3 /* AppDelegate.swift */,
 			);
 			path = Controller;
@@ -385,7 +385,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED09EE1B22A5521C00E5D3B3 /* ViewController.swift in Sources */,
+				ED09EE1B22A5521C00E5D3B3 /* HomeVC.swift in Sources */,
 				ED815F3822A7ED6200317280 /* RegisterVC.swift in Sources */,
 				ED09EE1922A5521C00E5D3B3 /* AppDelegate.swift in Sources */,
 				ED1865C122A9C4E400713296 /* RoundedView.swift in Sources */,

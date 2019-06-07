@@ -245,7 +245,7 @@
         <!--Navigation Controller-->
         <scene sceneID="TQ1-rf-QPt">
             <objects>
-                <navigationController storyboardIdentifier="LoginVC" automaticallyAdjustsScrollViewInsets="NO" id="DdR-JL-2eC" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="LoginViewController" automaticallyAdjustsScrollViewInsets="NO" id="DdR-JL-2eC" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dqh-lw-xgm">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
@@ -258,7 +258,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SSE-Fg-cYP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="457" y="135"/>
+            <point key="canvasLocation" x="457" y="134"/>
         </scene>
     </scenes>
     <resources>
