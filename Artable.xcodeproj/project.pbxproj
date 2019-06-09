@@ -20,6 +20,22 @@
 		ED09EE3B22A5528700E5D3B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED09EE3922A5528700E5D3B3 /* LaunchScreen.storyboard */; };
 		ED09EE4122A5530A00E5D3B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED09EE1F22A5521E00E5D3B3 /* Assets.xcassets */; };
 		ED11244C22AABAF3000F0272 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11244B22AABAF3000F0272 /* Extension.swift */; };
+		ED16C0EE22ABA4DC00CE67F1 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16C0EC22ABA4DC00CE67F1 /* ForgotPasswordVC.swift */; };
+		ED16C0EF22ABA4DC00CE67F1 /* ForgotPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED16C0ED22ABA4DC00CE67F1 /* ForgotPasswordVC.xib */; };
+		ED16C0F322ABAF9300CE67F1 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16C0F222ABAF9300CE67F1 /* Category.swift */; };
+		ED16C0F422ABAF9300CE67F1 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16C0F222ABAF9300CE67F1 /* Category.swift */; };
+		ED16C0F722ABB1AB00CE67F1 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16C0F522ABB1AB00CE67F1 /* CategoryCell.swift */; };
+		ED16C0F822ABB1AB00CE67F1 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16C0F522ABB1AB00CE67F1 /* CategoryCell.swift */; };
+		ED16C0F922ABB1AB00CE67F1 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED16C0F622ABB1AB00CE67F1 /* CategoryCell.xib */; };
+		ED16C0FA22ABB1AB00CE67F1 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED16C0F622ABB1AB00CE67F1 /* CategoryCell.xib */; };
+		ED16C0FD22ABCD5C00CE67F1 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16C0FC22ABCD5C00CE67F1 /* ProductsVC.swift */; };
+		ED16C0FE22ABCD5C00CE67F1 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16C0FC22ABCD5C00CE67F1 /* ProductsVC.swift */; };
+		ED16C10022ABCE1C00CE67F1 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16C0FF22ABCE1C00CE67F1 /* Product.swift */; };
+		ED16C10122ABCE1C00CE67F1 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16C0FF22ABCE1C00CE67F1 /* Product.swift */; };
+		ED16C10422ABCF3A00CE67F1 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16C10222ABCF3A00CE67F1 /* ProductCell.swift */; };
+		ED16C10522ABCF3A00CE67F1 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16C10222ABCF3A00CE67F1 /* ProductCell.swift */; };
+		ED16C10622ABCF3A00CE67F1 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED16C10322ABCF3A00CE67F1 /* ProductCell.xib */; };
+		ED16C10722ABCF3A00CE67F1 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED16C10322ABCF3A00CE67F1 /* ProductCell.xib */; };
 		ED1865C122A9C4E400713296 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1865C022A9C4E400713296 /* RoundedView.swift */; };
 		ED51062722A81878003E616B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED51062622A81878003E616B /* GoogleService-Info.plist */; };
 		ED60396922A7DD5F00646790 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED60396822A7DD5F00646790 /* GoogleService-Info.plist */; };
@@ -49,6 +65,15 @@
 		ED09EE3A22A5528700E5D3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED09EE3C22A5528700E5D3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED11244B22AABAF3000F0272 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		ED16C0EC22ABA4DC00CE67F1 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		ED16C0ED22ABA4DC00CE67F1 /* ForgotPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordVC.xib; sourceTree = "<group>"; };
+		ED16C0F222ABAF9300CE67F1 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		ED16C0F522ABB1AB00CE67F1 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		ED16C0F622ABB1AB00CE67F1 /* CategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
+		ED16C0FC22ABCD5C00CE67F1 /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
+		ED16C0FF22ABCE1C00CE67F1 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		ED16C10222ABCF3A00CE67F1 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		ED16C10322ABCF3A00CE67F1 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
 		ED1865C022A9C4E400713296 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
 		ED51062622A81878003E616B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ED60396822A7DD5F00646790 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -110,8 +135,8 @@
 		ED09EE1722A5521C00E5D3B3 /* Artable */ = {
 			isa = PBXGroup;
 			children = (
+				ED16C0EB22ABA4B500CE67F1 /* Xib */,
 				ED815F3422A7ECA300317280 /* Storyboards */,
-				ED815F3322A7EC9C00317280 /* Model */,
 				ED815F3222A7EC8A00317280 /* View */,
 				ED815F3022A7EC6B00317280 /* Controller */,
 				ED09EE2422A5521E00E5D3B3 /* Info.plist */,
@@ -136,10 +161,30 @@
 		ED09EE4022A552D000E5D3B3 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				ED16C0FB22ABB21300CE67F1 /* Xibs */,
+				ED815F3322A7EC9C00317280 /* Model */,
 				ED1865BF22A9C4C900713296 /* View */,
 				ED09EE1F22A5521E00E5D3B3 /* Assets.xcassets */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		ED16C0EB22ABA4B500CE67F1 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				ED16C0EC22ABA4DC00CE67F1 /* ForgotPasswordVC.swift */,
+				ED16C0ED22ABA4DC00CE67F1 /* ForgotPasswordVC.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		ED16C0FB22ABB21300CE67F1 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				ED16C0F622ABB1AB00CE67F1 /* CategoryCell.xib */,
+				ED16C10322ABCF3A00CE67F1 /* ProductCell.xib */,
+			);
+			path = Xibs;
 			sourceTree = "<group>";
 		};
 		ED1865BF22A9C4C900713296 /* View */ = {
@@ -147,6 +192,9 @@
 			children = (
 				ED1865C022A9C4E400713296 /* RoundedView.swift */,
 				ED11244B22AABAF3000F0272 /* Extension.swift */,
+				ED16C0F522ABB1AB00CE67F1 /* CategoryCell.swift */,
+				ED16C0FC22ABCD5C00CE67F1 /* ProductsVC.swift */,
+				ED16C10222ABCF3A00CE67F1 /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -173,6 +221,8 @@
 		ED815F3322A7EC9C00317280 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				ED16C0F222ABAF9300CE67F1 /* Category.swift */,
+				ED16C0FF22ABCE1C00CE67F1 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -282,9 +332,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED09EE2322A5521E00E5D3B3 /* LaunchScreen.storyboard in Resources */,
+				ED16C10622ABCF3A00CE67F1 /* ProductCell.xib in Resources */,
+				ED16C0F922ABB1AB00CE67F1 /* CategoryCell.xib in Resources */,
 				ED09EE2022A5521E00E5D3B3 /* Assets.xcassets in Resources */,
 				ED51062722A81878003E616B /* GoogleService-Info.plist in Resources */,
 				ED09EE1E22A5521C00E5D3B3 /* Main.storyboard in Resources */,
+				ED16C0EF22ABA4DC00CE67F1 /* ForgotPasswordVC.xib in Resources */,
 				EDDCF8D922A7203600BEBF9E /* LoginStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,8 +346,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED16C0FA22ABB1AB00CE67F1 /* CategoryCell.xib in Resources */,
 				ED09EE3B22A5528700E5D3B3 /* LaunchScreen.storyboard in Resources */,
 				ED60396922A7DD5F00646790 /* GoogleService-Info.plist in Resources */,
+				ED16C10722ABCF3A00CE67F1 /* ProductCell.xib in Resources */,
 				ED09EE4122A5530A00E5D3B3 /* Assets.xcassets in Resources */,
 				ED09EE3622A5528600E5D3B3 /* Main.storyboard in Resources */,
 			);
@@ -388,12 +443,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED16C0FD22ABCD5C00CE67F1 /* ProductsVC.swift in Sources */,
 				ED09EE1B22A5521C00E5D3B3 /* HomeVC.swift in Sources */,
+				ED16C0EE22ABA4DC00CE67F1 /* ForgotPasswordVC.swift in Sources */,
 				ED815F3822A7ED6200317280 /* RegisterVC.swift in Sources */,
 				ED09EE1922A5521C00E5D3B3 /* AppDelegate.swift in Sources */,
+				ED16C10022ABCE1C00CE67F1 /* Product.swift in Sources */,
 				ED11244C22AABAF3000F0272 /* Extension.swift in Sources */,
+				ED16C0F722ABB1AB00CE67F1 /* CategoryCell.swift in Sources */,
 				ED1865C122A9C4E400713296 /* RoundedView.swift in Sources */,
+				ED16C10422ABCF3A00CE67F1 /* ProductCell.swift in Sources */,
 				ED815F3622A7ED2E00317280 /* LoginVC.swift in Sources */,
+				ED16C0F322ABAF9300CE67F1 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,8 +462,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED16C0FE22ABCD5C00CE67F1 /* ProductsVC.swift in Sources */,
 				ED09EE3322A5528600E5D3B3 /* ViewController.swift in Sources */,
 				ED09EE3122A5528600E5D3B3 /* AppDelegate.swift in Sources */,
+				ED16C0F422ABAF9300CE67F1 /* Category.swift in Sources */,
+				ED16C0F822ABB1AB00CE67F1 /* CategoryCell.swift in Sources */,
+				ED16C10522ABCF3A00CE67F1 /* ProductCell.swift in Sources */,
+				ED16C10122ABCE1C00CE67F1 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

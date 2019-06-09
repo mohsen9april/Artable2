@@ -12,7 +12,7 @@
 		<key>Artable.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>27</integer>
+			<integer>25</integer>
 		</dict>
 		<key>ArtableAdmin.xcscheme</key>
 		<dict>
@@ -22,7 +22,7 @@
 		<key>ArtableAdmin.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>28</integer>
+			<integer>26</integer>
 		</dict>
 	</dict>
 </dict>
