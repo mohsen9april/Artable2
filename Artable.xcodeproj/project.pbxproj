@@ -42,6 +42,8 @@
 		ED815F3622A7ED2E00317280 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED815F3522A7ED2E00317280 /* LoginVC.swift */; };
 		ED815F3822A7ED6200317280 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED815F3722A7ED6200317280 /* RegisterVC.swift */; };
 		EDDCF8D922A7203600BEBF9E /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDCF8D822A7203600BEBF9E /* LoginStoryboard.storyboard */; };
+		EDFDD6DA22AE523100C83EA6 /* ProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFDD6D822AE523100C83EA6 /* ProductDetailVC.swift */; };
+		EDFDD6DB22AE523100C83EA6 /* ProductDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDFDD6D922AE523100C83EA6 /* ProductDetailVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +82,8 @@
 		ED815F3522A7ED2E00317280 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		ED815F3722A7ED6200317280 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		EDDCF8D822A7203600BEBF9E /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		EDFDD6D822AE523100C83EA6 /* ProductDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailVC.swift; sourceTree = "<group>"; };
+		EDFDD6D922AE523100C83EA6 /* ProductDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductDetailVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +178,8 @@
 			children = (
 				ED16C0EC22ABA4DC00CE67F1 /* ForgotPasswordVC.swift */,
 				ED16C0ED22ABA4DC00CE67F1 /* ForgotPasswordVC.xib */,
+				EDFDD6D822AE523100C83EA6 /* ProductDetailVC.swift */,
+				EDFDD6D922AE523100C83EA6 /* ProductDetailVC.xib */,
 			);
 			path = Xib;
 			sourceTree = "<group>";
@@ -337,6 +343,7 @@
 				ED09EE2022A5521E00E5D3B3 /* Assets.xcassets in Resources */,
 				ED51062722A81878003E616B /* GoogleService-Info.plist in Resources */,
 				ED09EE1E22A5521C00E5D3B3 /* Main.storyboard in Resources */,
+				EDFDD6DB22AE523100C83EA6 /* ProductDetailVC.xib in Resources */,
 				ED16C0EF22ABA4DC00CE67F1 /* ForgotPasswordVC.xib in Resources */,
 				EDDCF8D922A7203600BEBF9E /* LoginStoryboard.storyboard in Resources */,
 			);
@@ -454,6 +461,7 @@
 				ED1865C122A9C4E400713296 /* RoundedView.swift in Sources */,
 				ED16C10422ABCF3A00CE67F1 /* ProductCell.swift in Sources */,
 				ED815F3622A7ED2E00317280 /* LoginVC.swift in Sources */,
+				EDFDD6DA22AE523100C83EA6 /* ProductDetailVC.swift in Sources */,
 				ED16C0F322ABAF9300CE67F1 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
