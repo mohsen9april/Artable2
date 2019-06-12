@@ -71,9 +71,10 @@ class HomeVC: UIViewController {
             if let error = error {
                 debugPrint(error.localizedDescription)
             }
-            
+            print(snap?.documentChanges.count)
             snap?.documentChanges.forEach({ (change) in
                 let data = change.document.data()
+                print(data)
                 let category = Category.init(data: data)
                 
                 switch change.type {

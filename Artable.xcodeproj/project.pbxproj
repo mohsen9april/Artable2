@@ -15,7 +15,7 @@
 		ED09EE2022A5521E00E5D3B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED09EE1F22A5521E00E5D3B3 /* Assets.xcassets */; };
 		ED09EE2322A5521E00E5D3B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED09EE2122A5521E00E5D3B3 /* LaunchScreen.storyboard */; };
 		ED09EE3122A5528600E5D3B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED09EE3022A5528600E5D3B3 /* AppDelegate.swift */; };
-		ED09EE3322A5528600E5D3B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED09EE3222A5528600E5D3B3 /* ViewController.swift */; };
+		ED09EE3322A5528600E5D3B3 /* AdminHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED09EE3222A5528600E5D3B3 /* AdminHomeVC.swift */; };
 		ED09EE3622A5528600E5D3B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED09EE3422A5528600E5D3B3 /* Main.storyboard */; };
 		ED09EE3B22A5528700E5D3B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED09EE3922A5528700E5D3B3 /* LaunchScreen.storyboard */; };
 		ED09EE4122A5530A00E5D3B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED09EE1F22A5521E00E5D3B3 /* Assets.xcassets */; };
@@ -44,6 +44,14 @@
 		EDDCF8D922A7203600BEBF9E /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDCF8D822A7203600BEBF9E /* LoginStoryboard.storyboard */; };
 		EDFDD6DA22AE523100C83EA6 /* ProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFDD6D822AE523100C83EA6 /* ProductDetailVC.swift */; };
 		EDFDD6DB22AE523100C83EA6 /* ProductDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDFDD6D922AE523100C83EA6 /* ProductDetailVC.xib */; };
+		EDFDD6DC22AE722C00C83EA6 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED09EE1A22A5521C00E5D3B3 /* HomeVC.swift */; };
+		EDFDD6DD22AE762E00C83EA6 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1865C022A9C4E400713296 /* RoundedView.swift */; };
+		EDFDD6DE22AE764900C83EA6 /* ProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFDD6D822AE523100C83EA6 /* ProductDetailVC.swift */; };
+		EDFDD6DF22AE766300C83EA6 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11244B22AABAF3000F0272 /* Extension.swift */; };
+		EDFDD6E022AE766B00C83EA6 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16C0EC22ABA4DC00CE67F1 /* ForgotPasswordVC.swift */; };
+		EDFDD6E122AE767400C83EA6 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED815F3522A7ED2E00317280 /* LoginVC.swift */; };
+		EDFDD6E222AE767700C83EA6 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED815F3722A7ED6200317280 /* RegisterVC.swift */; };
+		EDFDD6E522AE7BC500C83EA6 /* AddEditCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFDD6E422AE7BC500C83EA6 /* AddEditCategoryVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,7 +70,7 @@
 		ED09EE2422A5521E00E5D3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED09EE2E22A5528600E5D3B3 /* ArtableAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtableAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED09EE3022A5528600E5D3B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED09EE3222A5528600E5D3B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED09EE3222A5528600E5D3B3 /* AdminHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminHomeVC.swift; sourceTree = "<group>"; };
 		ED09EE3522A5528600E5D3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED09EE3A22A5528700E5D3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED09EE3C22A5528700E5D3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -84,6 +92,7 @@
 		EDDCF8D822A7203600BEBF9E /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
 		EDFDD6D822AE523100C83EA6 /* ProductDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailVC.swift; sourceTree = "<group>"; };
 		EDFDD6D922AE523100C83EA6 /* ProductDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductDetailVC.xib; sourceTree = "<group>"; };
+		EDFDD6E422AE7BC500C83EA6 /* AddEditCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditCategoryVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,10 +161,8 @@
 		ED09EE2F22A5528600E5D3B3 /* ArtableAdmin */ = {
 			isa = PBXGroup;
 			children = (
-				ED09EE3022A5528600E5D3B3 /* AppDelegate.swift */,
-				ED09EE3222A5528600E5D3B3 /* ViewController.swift */,
-				ED09EE3422A5528600E5D3B3 /* Main.storyboard */,
-				ED09EE3922A5528700E5D3B3 /* LaunchScreen.storyboard */,
+				EDEC54DA22B0D8350030D201 /* View */,
+				EDFDD6E622AE7BCB00C83EA6 /* Controller */,
 				ED09EE3C22A5528700E5D3B3 /* Info.plist */,
 				ED60396822A7DD5F00646790 /* GoogleService-Info.plist */,
 			);
@@ -241,6 +248,25 @@
 				ED09EE2122A5521E00E5D3B3 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		EDEC54DA22B0D8350030D201 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED09EE3422A5528600E5D3B3 /* Main.storyboard */,
+				ED09EE3922A5528700E5D3B3 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EDFDD6E622AE7BCB00C83EA6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED09EE3222A5528600E5D3B3 /* AdminHomeVC.swift */,
+				EDFDD6E422AE7BC500C83EA6 /* AddEditCategoryVC.swift */,
+				ED09EE3022A5528600E5D3B3 /* AppDelegate.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		F21B0722149A14B8D4E3F839 /* Pods */ = {
@@ -395,9 +421,40 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Artable/Pods-Artable-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Artable/Pods-Artable-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC-iOS12.0/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableFirebase-iOS12.0/CodableFirebase.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher-iOS12.0/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities-iOS12.0/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager-iOS12.0/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher-iOS12.0/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf-iOS12.0/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++-iOS12.0/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core-iOS12.0/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library-iOS12.0/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb-iOS12.0/nanopb.framework",
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Artable/Pods-Artable-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableFirebase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -434,9 +491,36 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ArtableAdmin/Pods-ArtableAdmin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtableAdmin/Pods-ArtableAdmin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC-iOS12.1/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableFirebase-iOS12.1/CodableFirebase.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher-iOS12.1/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities-iOS12.1/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager-iOS12.1/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher-iOS12.1/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf-iOS12.1/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++-iOS12.1/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core-iOS12.1/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library-iOS12.1/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb-iOS12.1/nanopb.framework",
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ArtableAdmin/Pods-ArtableAdmin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableFirebase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -471,10 +555,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED16C0FE22ABCD5C00CE67F1 /* ProductsVC.swift in Sources */,
-				ED09EE3322A5528600E5D3B3 /* ViewController.swift in Sources */,
+				EDFDD6DE22AE764900C83EA6 /* ProductDetailVC.swift in Sources */,
+				EDFDD6E022AE766B00C83EA6 /* ForgotPasswordVC.swift in Sources */,
+				EDFDD6DC22AE722C00C83EA6 /* HomeVC.swift in Sources */,
+				EDFDD6DD22AE762E00C83EA6 /* RoundedView.swift in Sources */,
+				EDFDD6DF22AE766300C83EA6 /* Extension.swift in Sources */,
+				ED09EE3322A5528600E5D3B3 /* AdminHomeVC.swift in Sources */,
+				EDFDD6E522AE7BC500C83EA6 /* AddEditCategoryVC.swift in Sources */,
 				ED09EE3122A5528600E5D3B3 /* AppDelegate.swift in Sources */,
 				ED16C0F422ABAF9300CE67F1 /* Category.swift in Sources */,
+				EDFDD6E122AE767400C83EA6 /* LoginVC.swift in Sources */,
 				ED16C0F822ABB1AB00CE67F1 /* CategoryCell.swift in Sources */,
+				EDFDD6E222AE767700C83EA6 /* RegisterVC.swift in Sources */,
 				ED16C10522ABCF3A00CE67F1 /* ProductCell.swift in Sources */,
 				ED16C10122ABCE1C00CE67F1 /* Product.swift in Sources */,
 			);
